@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.main-container {
+  display: flex;
+  padding: 45px 86px 15px;
+}
+
+.to-do-card {
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px;
+  background-color: rgb(255,255,255);
+  padding: 5px 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 150ms ease-in-out;
+  animation: eMLfYp 300ms linear;
+}
+
+.to-do-card h4 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.to-do-card input {
+  padding: 11px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2.5px solid rgba(255, 255, 255, 0.8);
+  width: 100%;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+  width: 200px;
+}
+
+.to-do-list {
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 6px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-decoration: none;
+  background-color: rgb(202, 255, 222);
+  margin: 10px 0;
+  padding: 14px 7px;
+  /* background: rgb(241,241,241); */
+  border-radius: 4.5px;
+  animation: eMLfYp 300ms linear;
+  justify-content: space-around;
+}
+
+.completed-list {
+  opacity: 0.35;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 6px 6px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  text-decoration: line-through;
+  background-color: rgb(222, 202, 255);
+  margin: 10px 0;
+  padding: 11px 7px;
+  /* background: rgb(241,241,241); */
+  border-radius: 4.5px;
+  animation: eMLfYp 300ms linear;
+  justify-content: space-around;
+}
+
+.to-do-list-container {
+
+}
+
+.new-card-form {
+  display: flex;
+  margin: 20px;
+  background-color: #0a2c74;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+  height: 100px;
+  padding: 35px 40px;
+  align-items: center;
+  animation: eMLfYp 300ms linear;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.new-card-form h4 {
+  display: block;
+  margin-block-start: 1.33em;
+  margin-block-end: 0.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.new-card-input {
+  display: block;
+  padding: 1%;
+}
